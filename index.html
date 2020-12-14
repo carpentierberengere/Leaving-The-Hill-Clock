@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Horloge</title>
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon2.png">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="./normalize.css">
@@ -16,29 +17,42 @@
 </header>
 
 <body>
-
-
-
-    <div class="horloge">
-        <div class="container_clock">
-            <div class="needle hr"></div>
-            <div class="needle min"></div>
-            <div class="needle sec"></div>
+    <section class="TODO">
+        <h1><span class="styling">TODO</span> List</h1>
+        <div class="div_input">
+            <input class="input" type="text" placeholder="What should I do today">
+            <button class="add"><i class="fas fa-plus-square fa-lg"></i></button>
         </div>
+        <div class="container">
+            <div class="item">
+                <input type="text" class="item_input" value="fun activities/chores" disabled>
+                <button class="edit"><i class="far fa-edit fa-lg"></i></button>
+                <button class="remove">REMOVE</button>
+            </div>
+        </div>
+    </section>
 
-    </div>
+    <section class="time">
+        <div class="horloge">
+            <div class="container_clock">
+                <div class="needle hr"></div>
+                <div class="needle min"></div>
+                <div class="needle sec"></div>
+            </div>
 
-    <div class="menu">
-        <ul class="list">
-            <li><a target="_blank" alt="clock" href="/"><i class="fas fa-clock fa-lg" style="color:white"></i></a></li>
-            
-            <li><a target="_blank" alt="music" href="https://www.youtube.com/watch?v=5qap5aO4i9A"><i class="fas fa-music fa-lg" style="color:white"></i></a></li>
+        </div>
+    </section>
 
-            <li><a target="_blank" alt="notepad" href="/"><i class="fas fa-list fa-lg" style="color:white"></i></a></li>
+    
 
-            <li><a target="_blank" alt="who" href="https://github.com/carpentierberengere"><i class="fas fa-user-astronaut fa-lg"style="color:white"></i></a></li>
-        </ul>
-    </div>
+    <section class="music">
+        <div class="player">
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
 
 
 
@@ -46,6 +60,7 @@
 
 
     <script src="./JS/clock.js"></script>
+    <script src="./JS/todo.js"></script>
 
 
 </body>
