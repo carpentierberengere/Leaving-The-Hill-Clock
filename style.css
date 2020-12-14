@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://picsum.photos/id/1045/1920/1080);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #21330F;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_clock {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(./img/clock.png);
+    background-size: cover;
+    position: relative;
+    background-color:rgb(241, 244, 237, 0.2);
+    
+
+}
+
+.needle{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform-origin:bottom ;
+    border-radius: 2px;
+}
+
+.hr{
+    width:4px;
+    height:20%;
+    background-color:#0F100E ;
+    transform: translateX(-50%);
+}
+
+.min{
+    width:2px;
+    height:35%;
+    background-color: #70706F;
+    transform: translateX(-50%);
+}
+
+.sec{
+    width:1px;
+    height:40%;
+    background-color: #080907;
+    transform: translateX(-50%);
+}
