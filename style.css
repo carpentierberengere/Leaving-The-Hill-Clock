@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     background-image: url(https://picsum.photos/id/1045/1920/1080);
     background-size: cover;
@@ -15,6 +17,8 @@ body {
     align-items: center;
 }
 
+
+
 .container_clock {
     margin: auto;
     width: 300px;
@@ -24,7 +28,8 @@ body {
     background-size: cover;
     position: relative;
     background-color:rgb(241, 244, 237, 0.2);
-    
+   
+    display: flex;
 
 }
 
@@ -56,3 +61,13 @@ body {
     background-color: #080907;
     transform: translateX(-50%);
 }
+
+.list{
+   list-style: none; 
+   margin-left:20px;
+}
+
+li{
+    margin-bottom:15px;
+}
+
