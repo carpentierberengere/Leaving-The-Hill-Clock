@@ -10,4 +10,8 @@ A webpage that display the time and date of the day, horizontally and vertically
 
 src :arrow_right: [instructions](https://github.com/becodeorg/bxl-hopper-1-25/tree/master/The%20Hill/projects/99.leaving_the_hills)
 
-link to project :arrow_right: click [**HERE**](/)
+link to project :arrow_right: click [**HERE**](carpentierberengere.github.io/leaving-the-hill-clock/)  
+
+# Preview 
+
+![LandingPage](./img/preview.png)
