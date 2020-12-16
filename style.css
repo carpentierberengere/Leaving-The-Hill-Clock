@@ -1,21 +1,38 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+
 
 
 
 body {
-    background-image: url(https://picsum.photos/id/1045/1920/1080);
+    background-image:url(https://picsum.photos/id/106/2592/1728/?blur=3);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #21330F;
-    height: 100vh;
+    background-color: palevioletred;
+    height: 90vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.web-container{
+    display:flex;
+    margin:auto;
+    
+    width:95%;
+    margin-top:15%;
+}
+
+.bigContainer{
+    display:block;
+}
+
+
+.hello{
+    color:black;
+    font-size:50px;
+}
+
 
 
 /* --------------------------CLOCK-------------------------------*/
@@ -28,7 +45,7 @@ body {
     background-size: cover;
     position: relative;
     background-color: rgb(241, 244, 237, 0.3);
-
+    
     display: flex;
 
 }
@@ -64,16 +81,20 @@ body {
 
 /*--------------------------------YOUTUBE PLAYER-------------------------------*/
 
-.music{
-    margin-left:30px;
+.music {
+    margin-left: 30px;
+    border:2px solid black;
+    margin-top:5%;
+    height:200px;
 }
 
 /*----------------------------TODO LIST---------------------------------*/
 
-.TODO{
-    margin-right:30px;
+.TODO {
+    margin-right: 30px;
     background-color: rgb(241, 244, 237, 0.3);
     border-radius: 10px;
+    
 }
 
 
